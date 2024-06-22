@@ -55,13 +55,13 @@ To execute this environment you need the following dependencies in your virtual 
 
 Here are all the dependencies in a unique block for easy copy and paste:
 ```
- pip install langchain
-  pip install langchain-core
-  pip install langchain-huggingface
-  pip install langchain-community
-  pip install transformers
+pip install langchain
+pip install langchain-core
+pip install langchain-huggingface
+pip install langchain-community
+pip install transformers
 pip install ollama
- pip install faiss-cpu
+pip install faiss-cpu
 pip install streamlit
 ```
 
