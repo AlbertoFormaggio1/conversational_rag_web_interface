@@ -27,45 +27,11 @@ git clone https://github.com/AlbertoFormaggio1/conversational_rag_web_interface.
 cd conversational_rag_web_interface
 ```
 #### Install the dependencies in your virtual environment
-To execute this environment you need the following dependencies in your virtual environment:
-- langchain, langchain-core, langchain-huggingface, langchain-community:
-  ```
-  pip install langchain
-  pip install langchain-core
-  pip install langchain-huggingface
-  pip install langchain-community
-  ```
-- transformers:
-  ```
-  pip install transformers
-  ```
-- ollama:
-  ```
-  pip install ollama
-  ```
-- FAISS: (also faiss-gpu is available but I didn't test it since I don't have a GPU myself)
-    ```
-  pip install faiss-cpu
-  ```
-- pytorch: For this, you should look at the installation guide and install the one that suits your device https://pytorch.org/get-started/locally/
-- streamlit:
-  ```
-  pip install streamlit
-  ```
-
-Here are all the dependencies in a unique block for easy copy and paste:
+To execute this environment you need to install the requirements provided in the requirements.txt file.
+To install them with Python Virtual Environment, run 
 ```
-pip install langchain
-pip install langchain-core
-pip install langchain-huggingface
-pip install langchain-community
-pip install transformers
-pip install ollama
-pip install faiss-cpu
-pip install streamlit
+pip install -r requirements.txt
 ```
-
-Please, always check the packages you're installing if you don't know what you're doing! I reported them also one by one so you can check they're the actual installation commands.
 
 #### Ollama installation
 This project uses Ollama for managing the models.
